@@ -1,0 +1,1 @@
+media query breakpoint for the sidebar menu is 880px
