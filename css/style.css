@@ -1,5 +1,16 @@
-h1 {
-  color: red; }
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+html {
+  font-family: "Open Sans", serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
@@ -26,11 +37,6 @@ h1 {
 [class*="-col"] {
   float: left;
   margin-right: 1.5%; }
-
-[class*="-col"] {
-  background-color: #ccc;
-  border: 1px solid red;
-  min-height: 200px; }
 
 [class*="-col"]:last-child {
   margin-right: 0; }
