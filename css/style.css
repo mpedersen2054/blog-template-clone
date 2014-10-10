@@ -3,7 +3,9 @@ html, html a {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 
 html {
-  font-family: "Open Sans", serif; }
+  font-family: "Open Sans", serif;
+  line-height: 1.75em;
+  font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
@@ -109,5 +111,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .eleven-offset {
   margin-left: 91.54%; }
+
+@media all and (max-width: 768px) {
+  .row {
+    margin: 0; }
+
+  .three-col {
+    display: none; }
+
+  .eight-col {
+    width: 100%;
+    margin-bottom: 1em; } }
+[class*="-col"] {
+  border: 1px solid red;
+  margin-right: 4%; }
+
+.wrapper {
+  padding: 0 3%; }
 
 /*# sourceMappingURL=style.css.map */
