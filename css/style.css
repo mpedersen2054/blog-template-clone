@@ -2,17 +2,26 @@ html, html a {
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 
-html {
+body {
   font-family: "Open Sans", serif;
   line-height: 1.75em;
   font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
   line-height: 1.1;
   margin: 0;
   padding: 0; }
+
+p {
+  font-size: 93.75%;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #6d98a8; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
@@ -127,7 +136,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 100px; }
 
 .three-col {
-  margin-right: 4%; }
+  margin-right: 4%;
+  max-width: 270px; }
 
 .wrapper {
   position: relative;
@@ -139,7 +149,8 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   overflow: hidden;
   padding-top: 1px;
-  margin-top: -1px; }
+  margin-top: -1px;
+  background-color: #657e8e; }
 
 .container {
   width: 96%;
@@ -167,5 +178,18 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 0.8em;
       font-weight: 600;
       color: #ddd; }
+
+.side-nav .side-nav-header {
+  height: 220px;
+  padding: 20px;
+  background: #ffeb00; }
+  .side-nav .side-nav-header h2 {
+    font-size: 1.5em; }
+  .side-nav .side-nav-header .side-nav-meta {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 10px 0 0; }
+    .side-nav .side-nav-header .side-nav-meta p {
+      height: 17px; }
 
 /*# sourceMappingURL=style.css.map */
