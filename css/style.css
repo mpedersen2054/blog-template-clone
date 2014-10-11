@@ -124,9 +124,48 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1em; } }
 [class*="-col"] {
   border: 1px solid red;
+  margin-top: 100px; }
+
+.three-col {
   margin-right: 4%; }
 
 .wrapper {
-  padding: 0 3%; }
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/vox-background.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 1px;
+  margin-top: -1px; }
+
+.container {
+  width: 96%;
+  margin: 0 auto; }
+
+.pull-right {
+  float: right; }
+
+.top-nav {
+  background: rgba(95, 118, 133, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 6px 0; }
+  .top-nav .logo {
+    font-family: "Lobster", cursive;
+    font-size: 2.3em;
+    color: #fff;
+    text-decoration: none; }
+  .top-nav .share {
+    text-transform: uppercase;
+    padding-top: 7px; }
+    .top-nav .share span {
+      font-size: 0.8em;
+      font-weight: 600;
+      color: #ddd; }
 
 /*# sourceMappingURL=style.css.map */
