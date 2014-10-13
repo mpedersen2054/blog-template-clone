@@ -205,11 +205,12 @@ a {
     .side-nav .side-nav-header .side-nav-meta p {
       height: 17px; }
 .side-nav .scroller {
-  min-height: 25px;
+  max-height: 25px;
   text-align: center;
   color: #777;
   background: #2a2a2a;
-  cursor: pointer; }
+  cursor: pointer;
+  font-size: 0.7em; }
   .side-nav .scroller:hover {
     color: #fff;
     background: #222222; }
@@ -241,17 +242,24 @@ article {
     height: 35px;
     padding-top: 3px;
     color: #888;
-    z-index: 1; }
+    z-index: 1;
+    font-weight: 600; }
     article .top-pager .previous {
-      display: inline-block; }
+      display: inline-block;
+      margin-left: 20px;
+      color: #777;
+      font-size: 0.8em; }
     article .top-pager .card-count {
       display: inline-block;
       position: relative;
-      left: 44.1%;
+      left: 42%;
       text-transform: uppercase;
       font-size: 14px; }
     article .top-pager .next {
-      display: inline-block; }
+      display: inline-block;
+      margin-right: 20px;
+      color: #777;
+      font-size: 0.8em; }
   article .content {
     color: #5e605f;
     line-height: 1.75em;
