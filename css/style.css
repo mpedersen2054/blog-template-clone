@@ -205,10 +205,11 @@ a {
     .side-nav .side-nav-header .side-nav-meta p {
       height: 17px; }
 .side-nav .scroller {
-  padding: 6px 0 1px;
+  min-height: 25px;
   text-align: center;
   color: #777;
-  background: #2a2a2a; }
+  background: #2a2a2a;
+  cursor: pointer; }
   .side-nav .scroller:hover {
     color: #fff;
     background: #222222; }
