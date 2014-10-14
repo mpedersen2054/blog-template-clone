@@ -162,6 +162,14 @@ a {
 .pull-left {
   float: left; }
 
+.author {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8em; }
+
+.thumbail {
+  padding-left: 20px; }
+
 .top-nav {
   background: rgba(95, 118, 133, 0.8);
   position: fixed;
@@ -272,5 +280,33 @@ article {
       margin-bottom: 20px; }
     article .content p {
       margin: 0 0 1.5em 0; }
+  article .bottom-pager {
+    position: relative;
+    height: 35px;
+    border-top: 1px solid #ddd;
+    padding-top: 3px;
+    font-weight: 600; }
+    article .bottom-pager .left-arrow, article .bottom-pager .share-text, article .bottom-pager .social-buttons, article .bottom-pager .right-arrow, article .bottom-pager .bottom-centered {
+      display: inline-block; }
+    article .bottom-pager .bottom-centered {
+      position: relative;
+      left: 35%; }
+    article .bottom-pager .share-text {
+      font-weight: 400;
+      color: #4b4d4c;
+      font-size: 13px;
+      text-transform: uppercase; }
+    article .bottom-pager .left-arrow, article .bottom-pager .right-arrow {
+      font-size: 0.8em;
+      color: #777; }
+    article .bottom-pager .left-arrow {
+      margin-left: 20px; }
+    article .bottom-pager .right-arrow {
+      margin-right: 20px; }
+    article .bottom-pager .social {
+      margin-left: 10px;
+      color: #4b4d4c; }
+      article .bottom-pager .social:hover {
+        color: #6d98a8; }
 
 /*# sourceMappingURL=style.css.map */

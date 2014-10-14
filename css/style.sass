@@ -53,3 +53,38 @@ article
 
     p
       margin: 0 0 1.5em 0
+
+  .bottom-pager
+    position: relative
+    height: 35px
+    border-top: 1px solid #ddd
+    padding-top: 3px
+    font-weight: 600
+    .left-arrow, .share-text, .social-buttons, .right-arrow, .bottom-centered
+      display: inline-block
+
+    .bottom-centered
+      position: relative
+      left: 35%
+
+    .share-text
+      font-weight: 400
+      color: $main-header
+      font-size: 13px
+      text-transform: uppercase
+
+    .left-arrow, .right-arrow
+      font-size: 0.8em
+      color: #777
+
+    .left-arrow
+      margin-left: 20px
+    .right-arrow
+      margin-right: 20px
+
+    .social
+      margin-left: 10px
+      color: $main-header
+      &:hover
+        color: $link-blue
+
